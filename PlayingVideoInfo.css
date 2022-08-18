@@ -1,0 +1,45 @@
+/* These is the uploaded date below the playing video */
+.playing-video-uploadedAt {
+	font-size: xx-small;
+	position: relative;
+	top: -16px;
+}
+
+/* The avatarbelow the playing video */
+.playing-video-avatar {
+	height: 20px;
+	height: 20px;
+	border-radius: 15px;
+}
+
+/* These is the channel Avatar and channel title below the playing video */
+.playing-video-channel {
+	font-size: xx-small;
+	width: 35vw;
+	margin-left: 3px;
+}
+
+/* Playing video's channel name */
+.video-info-container {
+	width: 30vw;
+	padding-top: 5px 0px;
+	position: relative;
+	top: 28px;
+}
+
+.views {
+	position: relative;
+	top: -32px;
+}
+
+.avatar-channelName-container {
+	position: relative;
+	top: -45px;
+	display: flex;
+	gap: 3px;
+}
+
+.playing-video-title{
+	font-size: small;
+	font-weight: bold;
+}

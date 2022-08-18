@@ -1,0 +1,16 @@
+.nav-bar-middle {
+	width: 70vw;
+	height: 12vh;
+	justify-content: space-around;
+	align-items: center;
+	display: flex;
+	background-color: rgb(180, 184, 186);
+	position: relative;
+	left: 1vw;
+	border-radius: 15px;
+	margin-top: 5px;
+}
+
+.add-to-playlist{
+	font-size: 35px;
+}

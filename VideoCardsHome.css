@@ -1,0 +1,416 @@
+/* Single card */
+.single-card {
+	text-justify: center;
+	display: flex;
+	align-items: center;
+	width: 360px;
+	height: 140px;
+	background: #fff;
+	padding: 10px 2px 2px 2px;
+	border-radius: 6px;
+	box-shadow: 0px 3px 6px 2px #0002;
+	transition: transform 100ms ease-in-out;
+	margin-bottom: 5px;
+}
+
+.single-card:hover {
+	transform: scale(1.03);
+	background-color: rgb(204, 201, 155)
+}
+
+/* Remove the verticale scroll bar */
+.cards::-webkit-scrollbar {
+	display: none;
+}
+
+/* Cards container */
+.cards {
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	display: flex;
+	column-gap: 5px;
+	overflow-y: scroll;
+	height: 80vh;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/* Remove the verticale scroll bar */
+.cards::-webkit-scrollbar {
+	display: none;
+}
+
+.single-card:hover {
+	transform: scale(1.03);
+	background-color: rgb(204, 201, 155)
+}
+
+/* image in the the card for home page */
+.image {
+	width: 120px;
+	height: 100px;
+	border-radius: 10px;
+	padding: 2px;
+	position: relative;
+	top: -5px;
+}
+
+/* Text inside each card */
+.video-description {
+	flex-direction: column;
+	display: flex;
+	position: relative;
+	top: 10px;
+	margin:0px 5px;
+	padding-right: 20px;
+	margin-left: 5px;
+}
+
+/* Views */
+.views {
+	font-size: xx-small;
+	color: black;
+}
+
+/* Title */
+.title {
+	font-size: xx-small;
+	color: rgb(248, 5, 5);
+	position: relative;
+	top: 18px;
+	width: 62vw
+}
+
+.posted-text {
+	position: relative;
+	top: -20px;
+}
+
+.duration-text {
+	position: relative;
+	top: -40px;
+}
+
+/* Avatar and channel name */
+.avatar-channelName {
+	justify-content:left;
+	display: flex;
+	margin-top: 5px;
+}
+
+/* The avatarbelow the playing video */
+.avatar {
+	height: 20px;
+	height: 20px;
+	border-radius: 30px;
+	position: relative;
+
+}
+
+/* Avatar and channel name */
+.avatar-channelName {
+	justify-content: left;
+	align-items: center;
+	display: flex;
+	margin-top: 5px;
+}
+
+/* The avatarbelow the playing video */
+.avatar {
+	height: 20px;
+	border-radius: 30px;
+	position: relative;
+	font-size: xx-small;
+	color: black;
+	font-size: 1px;
+}
+
+/* Channel id */
+.channel-id {
+	font-size: 1px;
+	text-decoration: none;
+	color: black;
+	margin-left: 2px;
+}
+
+
+
+@media screen and (max-width: 414px) {
+
+	/* Single card */
+	.single-card {
+		text-justify: center;
+		display: flex;
+		align-items: center;
+		width: 400px;
+		height: 140px;
+		background: #fff;
+		padding: 10px 2px 2px 2px;
+		border-radius: 6px;
+		box-shadow: 0px 3px 6px 2px #0002;
+		transition: transform 100ms ease-in-out;
+		margin-bottom: 5px;
+	}
+
+	.single-card:hover {
+		transform: scale(1.03);
+		background-color: rgb(204, 201, 155)
+	}
+
+	/* Remove the verticale scroll bar */
+	.cards::-webkit-scrollbar {
+		display: none;
+	}
+
+	/* Cards container */
+	.cards {
+		flex-direction: row;
+		justify-content: center;
+		flex-wrap: wrap;
+		display: flex;
+		column-gap: 5px;
+		overflow-y: scroll;
+		height: 86vh;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	/* Remove the verticale scroll bar */
+	.cards::-webkit-scrollbar {
+		display: none;
+	}
+
+	.single-card:hover {
+		transform: scale(1.03);
+		background-color: rgb(204, 201, 155)
+	}
+
+	/* image in the the card for home page */
+	.image {
+		width: 120px;
+		height: 100px;
+		border-radius: 10px;
+		padding: 2px;
+		position: relative;
+		top: -5px;
+	}
+
+	/* Text inside each card */
+	.video-description {
+		flex-direction: column;
+		display: flex;
+		position: relative;
+		top: 10px;
+		margin: 0px 5px;
+		padding-right: 20px;
+		margin-left: 5px;
+	}
+
+	/* Views */
+	.views {
+		font-size: xx-small;
+		color: black;
+	}
+
+	/* Title */
+	.title {
+		font-size: xx-small;
+		color: rgb(248, 5, 5);
+		position: relative;
+		top: 18px;
+		width: 62vw
+	}
+
+	.posted-text {
+		position: relative;
+		top: -20px;
+	}
+
+	.duration-text {
+		position: relative;
+		top: -40px;
+	}
+
+	/* Avatar and channel name */
+	.avatar-channelName {
+		justify-content: left;
+		display: flex;
+		margin-top: 5px;
+	}
+
+	/* The avatarbelow the playing video */
+	.avatar {
+		height: 20px;
+		height: 20px;
+		border-radius: 30px;
+		position: relative;
+
+	}
+
+	/* Avatar and channel name */
+	.avatar-channelName {
+		justify-content: left;
+		align-items: center;
+		display: flex;
+		margin-top: 5px;
+	}
+
+	/* The avatarbelow the playing video */
+	.avatar {
+		height: 20px;
+		border-radius: 30px;
+		position: relative;
+		font-size: xx-small;
+		color: black;
+		font-size: 1px;
+	}
+
+	/* Channel id */
+	.channel-id {
+		font-size: 1px;
+		text-decoration: none;
+		color: black;
+		margin-left: 2px;
+	}
+}
+
+
+	@media screen and (max-width: 375px) {
+		/* Single card */
+			.single-card {
+				text-justify: center;
+				display: flex;
+				align-items: center;
+				width: 360px;
+				height: 140px;
+				background: #fff;
+				padding: 10px 2px 2px 2px;
+				border-radius: 6px;
+				box-shadow: 0px 3px 6px 2px #0002;
+				transition: transform 100ms ease-in-out;
+				margin-bottom: 5px;
+			}
+		
+			.single-card:hover {
+				transform: scale(1.03);
+				background-color: rgb(204, 201, 155)
+			}
+		
+			/* Remove the verticale scroll bar */
+			.cards::-webkit-scrollbar {
+				display: none;
+			}
+		
+			/* Cards container */
+			.cards {
+				flex-direction: row;
+				justify-content: center;
+				flex-wrap: wrap;
+				display: flex;
+				column-gap: 5px;
+				overflow-y: scroll;
+				height: 80vh;
+				margin-top: 10px;
+				margin-bottom: 10px;
+			}
+		
+			/* Remove the verticale scroll bar */
+			.cards::-webkit-scrollbar {
+				display: none;
+			}
+		
+			.single-card:hover {
+				transform: scale(1.03);
+				background-color: rgb(204, 201, 155)
+			}
+		
+			/* image in the the card for home page */
+			.image {
+				width: 120px;
+				height: 100px;
+				border-radius: 10px;
+				padding: 2px;
+				position: relative;
+				top: -5px;
+			}
+		
+			/* Text inside each card */
+			.video-description {
+				flex-direction: column;
+				display: flex;
+				position: relative;
+				top: 10px;
+				margin: 0px 5px;
+				padding-right: 20px;
+				margin-left: 5px;
+			}
+		
+			/* Views */
+			.views {
+				font-size: xx-small;
+				color: black;
+			}
+		
+			/* Title */
+			.title {
+				font-size: xx-small;
+				color: rgb(248, 5, 5);
+				position: relative;
+				top: 18px;
+				width: 62vw
+			}
+		
+			.posted-text {
+				position: relative;
+				top: -20px;
+			}
+		
+			.duration-text {
+				position: relative;
+				top: -40px;
+			}
+		
+			/* Avatar and channel name */
+			.avatar-channelName {
+				justify-content: left;
+				display: flex;
+				margin-top: 5px;
+			}
+		
+			/* The avatarbelow the playing video */
+			.avatar {
+				height: 20px;
+				height: 20px;
+				border-radius: 30px;
+				position: relative;
+		
+			}
+		
+			/* Avatar and channel name */
+			.avatar-channelName {
+				justify-content: left;
+				align-items: center;
+				display: flex;
+				margin-top: 5px;
+			}
+		
+			/* The avatarbelow the playing video */
+			.avatar {
+				height: 20px;
+				border-radius: 30px;
+				position: relative;
+				font-size: xx-small;
+				color: black;
+				font-size: 1px;
+			}
+		
+			/* Channel id */
+			.channel-id {
+				font-size: 1px;
+				text-decoration: none;
+				color: black;
+				margin-left: 2px;
+			}
+	}
+

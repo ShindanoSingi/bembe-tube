@@ -40,6 +40,8 @@
     "react-video": "^1.5.3",
     "react-youtube": "^9.0.2",
     "reactstrap": "^9.0.3",
+    "s": "^1.0.0",
+    "serve": "^14.0.1",
     "styled-components": "^5.3.5",
     "web-vitals": "^2.1.4"
   },

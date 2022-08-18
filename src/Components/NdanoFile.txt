@@ -1,0 +1,91 @@
+This this the link to the youtube API
+
+I got the second API from here
+
+https://developers.google.com/youtube/v3/getting-started
+
+
+To change quotas
+
+https://console.cloud.google.com/iam-admin/quotas?project=my-project-244934&pageState=(%22allQuotasTable%22:(%22p%22:1))
+
+RAPID API
+https://rapidapi.com/hub
+https://rapidapi.com/marindelija/api/youtube-search-results/
+
+ API for Presentation: b05e2317d3msh31c93481f56b372p13e651jsn7e86a75c99f8
+
+
+	         	
+ b05e2317d3msh31c93481f56b372p13e651jsn7e86a75c99f8
+
+
+
+
+ 	<div>
+				{/* <button > */}
+					{/* <Link to='/registerOrSignin'> */}
+					<div aria-describedby={id} type="button" onClick={handleClick} className='register-login'>
+							<p className='register-text'>Register/Login</p>
+						</div>
+					{/* </Link> */}
+				{/* </button> */}
+				<Popper id={id} open={open} anchorEl={anchorEl} transition>
+					{({ TransitionProps }) => (
+						<Fade {...TransitionProps} timeout={350}>
+							<Box sx={{ border: 1, p: 1, bgcolor: 'background.paper' }}>
+								<Auth getUserData={getUserData}/>
+							</Box>
+						</Fade>
+					)}
+				</Popper>
+			</div>
+
+
+
+
+
+
+			router.put("/addToPlaylist", (req, res) => {
+  // console.log(req)
+  User.findOne({ username: req.body.username }, async (err, user) => {
+
+    // const newUser = new User({
+    //   username: req.body.username,
+    //   password: hashedPassword,
+    //   playlist: req.body.playlist,
+    //   history: req.body.history,
+    //   comments: req.body.comments,
+    //   likes: req.body.likes,
+    //   views: req.body.views
+    // });
+    user.playlist.push(req.body.videoId)
+    await user.save()
+    res.send("Added the playlist.")
+    console.log(user)
+  })
+})
+
+router.get("/playlist", (req, res) => {
+  // console.log(req)
+   User.findOne({ username: req.body.username }, async (err, user) => {
+
+    // const newUser = new User({
+    //   username: req.body.username,
+    //   password: hashedPassword,
+    //   playlist: req.body.playlist,
+    //   history: req.body.history,
+    //   comments: req.body.comments,
+    //   likes: req.body.likes,
+    //   views: req.body.views
+    // });
+    // user.playlist.push(req.body.videoId)
+    // await user.save()
+     res.send({
+       message: "Got the playlist.",
+       playlist: user.playlist
+      })
+      // res.send(res)
+     console.log(user.playlist)
+  })
+ })

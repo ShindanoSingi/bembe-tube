@@ -1,0 +1,237 @@
+
+
+.channel-id:first-letter {
+  text-transform: capitalize;
+}
+
+/* Eye icon */
+.eye {
+  margin-left: 1vw;
+  color: rgb(170, 29, 29);
+}
+
+/* views-posted-duration */
+.views-posted-duration {
+  margin-top: 5px;
+}
+
+/* Revove styles from the link */
+.link {
+  text-decoration: none;
+}
+
+/* Change like-icon color on hover */
+.like-icon:hover {
+  color: rgb(232, 241, 241);
+}
+
+.likes-container {
+  flex-direction: column;
+  align-content: center;
+  gap: 2.5vh;
+  display: flex;
+}
+
+.brokenHeart {
+  margin-left: 1vw
+}
+
+/* Likes and dislike container */
+.likes-dislikes-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Dislike-icon */
+.dislike-icon {
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  gap: 0.5vh;
+}
+
+/* Change Dislike-icon color on hover */
+.dislike-icon:hover {
+  color: rgb(232, 241, 241);
+}
+
+.dislike {
+  flex-direction: column;
+  gap: 2.5vh;
+  display: flex;
+}
+
+/* Dislikes container */
+.dislikes-container {
+  flex-direction: row;
+  align-items: center;
+  gap: 2.5vh;
+  display: flex;
+}
+
+/* Change views-icon color on hover */
+.views-icon:hover {
+  color: rgb(232, 241, 241);
+}
+
+/* Change like-icon color on hover */
+.add-to-playlist:hover {
+  color: rgb(232, 241, 241);
+}
+
+/* Change add-to-playlist icon color */
+.add-to-playlist-icon {
+  color: rgb(245, 73, 11)
+}
+
+/* Comment container */
+.form-comment {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 5px;
+}
+
+/* Change comment-icon color on hover */
+.comments:hover {
+  color: rgb(232, 241, 241);
+}
+
+/* Change comment-icon color on hover */
+.comments-icon {
+  color: rgb(28, 227, 10);
+}
+
+/* Change comment-icon color on hover */
+.comments-icon:hover {
+  color: rgb(232, 241, 241);
+}
+
+.like-dislike-playlist-container {
+  height: 15vh;
+  border-radius: 15px;
+  margin-left: -24vw;
+  margin-top: -10vh;
+  flex-direction: row;
+  width: 50vw;
+  justify-content: space-evenly;
+  display: flex;
+  position: relative;
+  left: -3vw;
+}
+
+.viewsNumber-viewsIcon-viewText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+/* Change the color on hover */
+.add-to-playlist-icon:hover {
+  color: rgb(232, 241, 241);
+}
+
+.duration {
+  margin-top: -20px;
+}
+
+.duration-home{
+  margin-top: -18px;
+}
+
+/* Channel logo */
+.channel-logo {
+  background-image: none;
+  border-radius: 50px;
+}
+
+/* views, posted and duration info */
+.channel-info {
+  margin-left: 2px;
+  margin-top: 3px;
+}
+
+/* logo-channelName */
+.logo-channelName {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  margin-top: 20px;
+}
+
+
+
+
+
+.wait-page {
+  animation: blinker 1s linear infinite;
+  margin: 0 10px;
+  /* Full width */
+  height: 100vh;
+  /* Full height */
+  text-align: center
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Add-to-playlist icon */
+.add-to-playlist-icon {
+  margin-left: 3vw;
+}
+
+/* Add to playlist container */
+.add-to-playlist {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2vh;
+}
+
+
+
+/* Avatar and channel name
+.avatar-channelName {
+  justify-content: center;
+  flex-direction: row;
+  display: flex;
+  width: 40vw;
+  position: relative;
+  left: -2vw;
+} */
+
+.btn {
+  padding: 5px;
+  width: 50px
+}
+
+@keyframes blinker {
+  0% {
+    opacity: 0;
+  }
+}
+
+.icons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: relative;
+  left: 2.8vw;
+  gap: 1vw;
+  margin-right: -1vw;
+}
+
+
+
+
+

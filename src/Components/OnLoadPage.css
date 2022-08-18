@@ -1,0 +1,23 @@
+.onload {
+	font-size:x-large;
+	height: 80vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media screen and (max-width: 414px) {
+	.onload {
+		height: 80vh;
+		display: flex;
+		align-items: center;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.onload {
+		height: 80vh;
+		display: flex;
+		align-items: center;
+	}
+}

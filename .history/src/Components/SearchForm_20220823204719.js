@@ -21,7 +21,7 @@ const SearchForm = ({ searchedString, handleSubmit, handleChange }) => {
         />
       </form>
       <GoSearch
-        className="relative hidden pt-1 lg:block text-md md:text-2xl right-5 md:right-8 searchIcon "
+        className="relative hidden pt-1 md:block text-md md:text-2xl right-5 md:right-8 searchIcon "
         onClick={handleSubmit}
         type="submit"
       />

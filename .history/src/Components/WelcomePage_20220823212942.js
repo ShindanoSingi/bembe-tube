@@ -10,10 +10,8 @@ const WelcomePage = () => {
         id="top-text"
         className="absolute justify-center transform -translate-x-1/2 top-text inset-y-5 md:top-24 lg:top-16 left-1/2 center flex-column "
       >
-        <p className="text-3xl text-center text-blue-500 md:text-5xl welcome">
-          Bembe-Tube
-        </p>
-        <p className="text-base text-center text-blue-500 md:text-3xl click-on-go">
+        <p className="text-3xl text-center md:text-5xl welcome">Bembe-Tube</p>
+        <p className="text-base text-center md:text-3xl click-on-go">
           Click on "Go" button.
         </p>
       </div>

@@ -13,7 +13,7 @@ const WelcomePage = () => {
         <p className="text-3xl text-center text-blue-500 md:text-5xl welcome">
           Bembe-Tube
         </p>
-        <p className="text-base text-center text-blue-500 md:text-3xl click-on-go">
+        <p className="text-base text-center md:text-3xl click-on-go">
           Click on "Go" button.
         </p>
       </div>

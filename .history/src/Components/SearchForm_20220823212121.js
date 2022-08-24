@@ -7,7 +7,7 @@ import "../Components/SearchForm.css"
 // This is the search form. It conatins both the input box and the search icon
 const SearchForm = ({ searchedString, handleSubmit, handleChange }) => {
   return (
-    <div className="flex items-center search-icon-and-input-box">
+    <div className="flex items-center items-baseline search-icon-and-input-box">
       <form onSubmit={handleSubmit} className="form">
         {/* Search Input */}
         <input
@@ -20,11 +20,13 @@ const SearchForm = ({ searchedString, handleSubmit, handleChange }) => {
           value={searchedString}
         />
       </form>
-      <GoSearch
-        className="relative hidden pt-1 lg:block text-md md:text-2xl right-5 md:right-8 searchIcon "
-        onClick={handleSubmit}
-        type="submit"
-      />
+      <div className="rounded-full md:h-10 md:w-10">
+        <GoSearch
+          className="relative hidden pt-1 md:left-2 bg-amber-900 md:block text-md md:text-2xl right-5 searchIcon "
+          onClick={handleSubmit}
+          type="submit"
+        />
+      </div>
     </div>
   )
 }

@@ -1,0 +1,27 @@
+
+
+
+@media screen and (max-width: 375px) {
+	.top-text {
+		text-align: center;
+		position: absolute;
+		top: 16vh;
+	}
+
+	.go-button {
+		font-size: 22px;
+		text-decoration: none;
+		position: relative;
+		width: 50%;
+		background-color: lightgoldenrodyellow;
+		top: 37rem;
+
+	}
+
+	body{
+		background-image: url("../Components/Images/HomePage.png");
+		background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+	}
+}

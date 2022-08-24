@@ -1,0 +1,35 @@
+  @media screen and (min-width: 961px) {
+  iframe {
+    height: 80vh;
+    width: 80vw;
+  }
+}
+
+ @media screen and (max-width: 960px) {
+  iframe {
+    height: 50vh;
+    width: 90vw;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  iframe {
+    height: 50vh;
+    width: 90vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  iframe {
+    height: 50vh;
+    width: 98vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  iframe {
+    height: 50vh;
+    width: 98vw;
+  }
+}

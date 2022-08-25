@@ -975,10 +975,6 @@ video {
     gap: 2rem;
   }
 
-  .lg\:gap-2 {
-    gap: 0.5rem;
-  }
-
   .lg\:overflow-auto {
     overflow: auto;
   }

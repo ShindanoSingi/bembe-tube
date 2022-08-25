@@ -138,7 +138,7 @@ function VideoPlayer({
         />
       </div>
 
-      <div className="flex flex-col mt-1 iframe-and-videoCards-container lg:flex-row md:gap-2 col lg:px-1">
+      <div className="flex flex-col mt-1 iframe-and-videoCards-container lg:flex-row md:gap-2 lg:gap-1 col lg:px-1">
         {/* <div className="flex flex-col gap-2"> */}
         <VideoIframe videos={videos} getVideoObject={getVideoObject} />
         {/* <NavBarMiddle

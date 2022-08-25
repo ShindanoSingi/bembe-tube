@@ -1,5 +1,4 @@
-import Wait from "./Wait"
-import { wait } from "@testing-library/user-event/dist/utils"
+// import { RestaurantMenuRounded } from '@mui/icons-material';
 import React from "react"
 import { Link } from "react-router-dom"
 import "../Components/VideoCardsPlayer.css"
@@ -16,9 +15,7 @@ const VideoCards = ({ videos, viewsFunc }) => {
   // 	console.log('No videos');
   // }
 
-  return !videos ? (
-    <Wait />
-  ) : (
+  return (
     <div className="flex flex-wrap mt-1 overflow-auto lg:left-72 md:flex md:fle-row md:flex-wrap md:gap-1 md:mt-8 lg:overflow-auto lg:flex-row md:flex-row justify-content cards-container">
       {videos.map(
         (video, index) =>

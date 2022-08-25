@@ -1,13 +1,12 @@
 
-
 @media screen and (min-width: 961px) {
 .cards-container{
 		max-height: 92vh;
-		width: 33rem;
+		width: 36.5rem;
 	}
 
 	.card{
-		width: 21.8rem;
+		width: 21.5rem;
 		max-height: 150px;
 	}
 

@@ -16,9 +16,7 @@ const VideoCards = ({ videos, viewsFunc }) => {
   // 	console.log('No videos');
   // }
 
-  return !videos ? (
-    <Wait />
-  ) : (
+  return !videos ? <Wait/>:
     <div className="flex flex-wrap mt-1 overflow-auto lg:left-72 md:flex md:fle-row md:flex-wrap md:gap-1 md:mt-8 lg:overflow-auto lg:flex-row md:flex-row justify-content cards-container">
       {videos.map(
         (video, index) =>

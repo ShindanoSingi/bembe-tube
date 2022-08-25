@@ -1,7 +1,7 @@
    @media screen and (min-width: 1101px) {
   iframe {
     height: 94.1vh;
-    width: 50vw;
+    width: 98vw;
     border-radius: 10px;
     margin-top: 5px;
   }
@@ -10,7 +10,7 @@
   @media screen and (min-width: 1100px) {
   iframe {
     height: 94.1vh;
-    width: 93.5rem;
+    width: 94.5rem;
     border-radius: 10px;
     margin-top: 5px;
   }
@@ -27,7 +27,7 @@
     @media screen and (max-width: 11023px) and (max-width: 1024px) {
    iframe {
     height: 93vh;
-    width: 65vw;
+    width: 65rem;
     border-radius: 10px;
     margin-top: 2px;
   }

@@ -1,5 +1,5 @@
    @media screen and (min-width: 1101px) {
-  iframe {
+  div {
     height: 94.1vh;
     width: 50vw;
     border-radius: 10px;
@@ -8,16 +8,16 @@
 }
 
   @media screen and (min-width: 1100px) {
-  iframe {
+  div {
     height: 94.1vh;
-    width: 93.5rem;
+    width: 75vw;
     border-radius: 10px;
     margin-top: 5px;
   }
 }
 
    @media screen and (max-width: 1280px) {
-   iframe {
+   div {
     height: 93vh;
     width: 67.5vw;
     border-radius: 10px;
@@ -25,7 +25,7 @@
   }
 }
     @media screen and (max-width: 11023px) and (max-width: 1024px) {
-   iframe {
+   div {
     height: 93vh;
     width: 65vw;
     border-radius: 10px;
@@ -34,7 +34,7 @@
 }
 
   @media screen and (min-width: 1103px) and (max-width: 1104px) {
-   iframe {
+   div {
     height: 93vh;
     width: 67vw;
     border-radius: 10px;
@@ -43,7 +43,7 @@
 }
 
  @media screen and (max-width: 960px) {
-   iframe {
+   div {
     height: 33rem;
     width: 100vw;
     border-radius: 10px;
@@ -53,7 +53,7 @@
 
 
 @media screen and (max-width: 768px) {
-   iframe {
+   div {
     height: 30rem;
     width: 100vw;
     border-radius: 10px;
@@ -62,7 +62,7 @@
 }
 
 @media screen and (max-width: 480px) {
-  iframe {
+  div {
     height: 20rem;
     width: 100vw;
     border-radius: 10px;
@@ -71,7 +71,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  iframe {
+  div {
     height: 15rem;
     width: 100vw;
   }

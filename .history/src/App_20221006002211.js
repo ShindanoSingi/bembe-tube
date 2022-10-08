@@ -142,7 +142,7 @@ function App() {
      console.log(userData)
 
      return (
-          <div className="bg-black App">
+          <div className="bg-[#1E1E1E] App">
                <Routes>
 
                     <Route path='/'

@@ -1,0 +1,78 @@
+   @media screen and (min-width: 1101px) {
+  iframe {
+    height: 94.1vh;
+    width: 50vw;
+
+    margin-top: 5px;
+  }
+}
+
+  @media screen and (min-width: 1100px) {
+  iframe {
+    height: 94.1vh;
+    width: 93.5rem;
+
+    margin-top: 5px;
+  }
+}
+
+   @media screen and (max-width: 1280px) {
+   iframe {
+    height: 93vh;
+    width: 67.5vw;
+
+    margin-top: 2px;
+  }
+}
+    @media screen and (max-width: 11023px) and (max-width: 1024px) {
+   iframe {
+    height: 93vh;
+    width: 65vw;
+
+    margin-top: 2px;
+  }
+}
+
+  @media screen and (min-width: 1103px) and (max-width: 1104px) {
+   iframe {
+    height: 93vh;
+    width: 67vw;
+
+    margin-top: 2px;
+  }
+}
+
+ @media screen and (max-width: 960px) {
+   iframe {
+    height: 33rem;
+    width: 100vw;
+
+    margin-top: 10px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+   iframe {
+    height: 30rem;
+    width: 100vw;
+
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  iframe {
+    height: 20rem;
+    width: 100vw;
+
+    margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  iframe {
+    height: 15rem;
+    width: 100vw;
+  }
+}

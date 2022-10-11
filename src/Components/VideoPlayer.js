@@ -1,9 +1,10 @@
 // import axios from 'axios';
-import React, { useState } from "react";
-import VideoIframe from "../Components/VideoIframe";
-import VideoCardsPlayer from "../Components/VideoCardsPlayer";
-import Nav from "./Nav";
-import NavBarMiddle from "../Components/NavBarMiddle";
+import React, { useState } from "react"
+import VideoIframe from "../Components/VideoIframe"
+import VideoCardsPlayer from "../Components/VideoCardsPlayer"
+import Nav from "./Nav"
+import "../Components/VideoPlayer.css"
+import NavBarMiddle from "../Components/NavBarMiddle"
 
 function VideoPlayer({
   videos,
@@ -14,11 +15,11 @@ function VideoPlayer({
   viewsFunc,
   getUserData,
   getaddToPlaylist,
-  videoId
+  videoId,
 }) {
-  const [videoObject, setVideoObject] = useState({});
+  const [videoObject, setVideoObject] = useState({})
 
-  console.log(userData);
+  console.log(userData)
   // console.log(videos[0] !== 'undefined')
   // const { id } = useParams()
 
@@ -120,41 +121,36 @@ function VideoPlayer({
   //     });
   // }
 
-  const getVideoObject = video => {
-    setVideoObject(video);
-    console.log(videoObject);
-  };
+  const getVideoObject = (video) => {
+    setVideoObject(video)
+    console.log(videoObject)
+  }
 
   return (
-    <div className="grid min-h-screen">
-      <div className="fixed flex flex-col min-h-full">
+    <div className="flex-col ">
+      <div>
         <Nav
           handleChange={handleChange}
           handleSubmit={handleSubmit}
           searchedString={searchedString}
           userData={userData}
           getUserData={getUserData}
-        />{" "}
-        {/* <div className="flex flex-col mt-5 lg:flex-row md:gap-2 col lg:px-1"> */}
-        {/* <div className="flex flex-col gap-2"> */}
-        <div className="iframe-and-cardsContainer">
-          <div>
-            <VideoIframe videos={videos} getVideoObject={getVideoObject} />
-            {/* <NavBarMiddle
-              videoObject={videoObject}
-              viewsFunc={viewsFunc}
-              getaddToPlaylist={getaddToPlaylist}
-              videoId={videoId}
-              userData={userData}
-            /> */}
-          </div>
-          <div>
-            <VideoCardsPlayer videos={videos} viewsFunc={viewsFunc} />
-          </div>
-        </div>
+        />
       </div>
-      {/* </div> */}
-      {/* </div> */}{" "}
+
+      <div className="flex flex-col mt-1 iframe-and-videoCards-container lg:flex-row md:gap-2 col lg:px-1">
+        {/* <div className="flex flex-col gap-2"> */}
+        <VideoIframe videos={videos} getVideoObject={getVideoObject} />
+        {/* <NavBarMiddle
+            videoObject={videoObject}
+            viewsFunc={viewsFunc}
+            getaddToPlaylist={getaddToPlaylist}
+            videoId={videoId}
+            userData={userData}
+          /> */}
+        {/* </div> */}
+        <VideoCardsPlayer videos={videos} viewsFunc={viewsFunc} />
+      </div>
     </div>
 
     // /{/* Searched form
@@ -168,10 +164,10 @@ function VideoPlayer({
     //     () => getIndex(1)
     // }>Click ME, I am Video Player</h1> */}
 
-    // {/* // <div className='iframe-and-videoCards-container' > */}
+    // {/* // <div className='iframe-and-videoCards-container' > */ }
 
-    // {/* // Video window with suggested videos */}
-    // {/* // {/* <VideoIframe */}
+    // {/* // Video window with suggested videos */ }
+    // {/* // {/* <VideoIframe */ }
     // {/* //     videos={videos}
     //     suggestedVodeos={suggestedVideos}
     // />  */}
@@ -189,8 +185,8 @@ function VideoPlayer({
     //     suggestedVodeos={suggestedVideos}
     // /> */}
 
-    // // {/* </div> */}
-  );
+    // // {/* </div> */ }
+  )
 }
 
-export default VideoPlayer;
+export default VideoPlayer

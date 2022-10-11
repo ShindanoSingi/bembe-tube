@@ -4,7 +4,7 @@ import {Link} from "react-router-dom"
 
 const WelcomePage = () => {
      return (
-          <div className="items-center flex flex-col justify-around py-12 md:py-36 h-screen welcome">
+          <div className="items-center flex flex-col justify-around py-12 md:py-8 h-screen welcome">
                <div className="flex flex-column">
                     <p className="text-2xl text-center text-blue-500 md:text-5xl">
                          Bembe-Tube

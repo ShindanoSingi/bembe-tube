@@ -71,6 +71,10 @@
         margin-top: 14.5rem;
     }
 
+    .welcome{
+        padding: 8rem 0;
+    }
+
 }
 @media (min-width: 480px) {
     .cards-container{
@@ -153,10 +157,6 @@
         visibility: visible;
     }
 
-    .welcome{
-        margin: 5rem 0;
-    }
-
  }
 @media (min-width: 991px) {
      iframe{
@@ -199,6 +199,11 @@
 
 }
 @media (min-width: 1024px) {
+
+    .welcome{
+        padding: 4rem 0;
+    }
+
     iframe{
         height: 78vh;
         width: 62vw;

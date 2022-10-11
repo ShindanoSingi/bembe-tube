@@ -30,9 +30,9 @@ const VideoCards = ({videos, viewsFunc}) => {
                                    video.id
                               }`
                     }>
-                         <div class="grid w-[98vw] md:w-[48.5vw] xl:w-[30rem] mx-1 gap-2  rounded-lg md:border-none"
+                         <div class="grid w-[98vw] md:w-[48.5vw] xl:w-[30rem] mx-1  rounded-lg md:border-none"
                               key={index}>
-                              <div class="flex h-[8rem] w-[96.5vw] single-card  gap-2 md:flex-row  rounded-lg lg:rounded-none bg-[#1E1E1E]">
+                              <div class="flex h-[8rem] w-[96.5vw] single-card  gap-2 md:flex-row  rounded-lg lg:rounded-none bg-[#1E1E1E]  mb-2">
                                    <img className="w-[6rem] video-thumbnail h-[8rem] md:h-auto xl :w-[4rem] object-cover md:w-48 rounded-l-lg  lg:rounded-lg"
                                         src={
                                              video.thumbnail.url

@@ -140,16 +140,9 @@
 @media (min-width: 768px) {
     .cards-container{
         max-height: 40vh;
-        margin-top: 18rem;
+        margin-top: 10.5rem;
         position: fixed;
         left: 0.2rem;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
-    .single-card{
-        width: 23rem;
     }
 
     .playlistAddIcon{
@@ -157,7 +150,7 @@
     }
 
     .video-thumbnail{
-     width: 8rem;
+     width: 10rem;
     }
 
     .playlist{
@@ -216,8 +209,8 @@
     }
 
     iframe{
-        height: 50vh;
-        width: 100vw;
+        height: 78vh;
+        width: 62vw;
         margin-left: 0.2rem;
     }
 
@@ -246,12 +239,12 @@
 
     .iframe-and-cardsContainer{
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
     }
  }
 @media (min-width: 1280px) {
      iframe{
-          height: 87vh;
+          height: 83vh;
           width: 70vw;
           margin-left: 0.2rem;
       }
@@ -281,8 +274,8 @@
 }
 @media (min-width: 1536px) {
     iframe{
-        height: 87vh;
-        width: 75vw;
+        height: 89vh;
+        width: 77vw;
         margin-left: 0.2rem;
     }
 }

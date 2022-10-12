@@ -30,7 +30,7 @@ const VideoCards = ({ videos, viewsFunc }) => {
             >
               <div
                 key={index}
-                class="card no-scrollbar flex h-fit gap-1 lg:mb-1.5 flex-row mb-1.5 items-center bg-white rounded-lg border shadow-md md:flex-row hover:bg-gray-100 lg:rounded-r-lg dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+                class="card no-scrollbar flex mr-1.5 h-fit gap-1 lg:mb-1.5 flex-row mb-1.5 items-center bg-white rounded-lg border shadow-md md:flex-row hover:bg-gray-100 lg:rounded-r-lg dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
               >
                 <div className="">
                   <img

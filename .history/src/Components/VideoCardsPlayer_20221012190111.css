@@ -68,7 +68,6 @@
 @media screen and (max-width: 960px) {
 	.cards-container{
 		max-height: 53.4vh;
-		margin-left: 6px;
 	}
 
 	.card{
@@ -125,7 +124,7 @@
 	}
 
 	.card{
-		width: 98vw;
+		width: 48vw;
 		max-height: 150px;
 	}
 
@@ -138,13 +137,12 @@
 
 @media screen and (max-width: 428px) {
 	.cards-container{
-		max-height: 50.1vh;
+		max-height: 52vh;
 		margin-top: 10px;
-		margin-left: 3.5px;
 	}
 
 	.card{
-		width: 98vw;
+		width: 100vw;
 		max-height: 150px;
 	}
 

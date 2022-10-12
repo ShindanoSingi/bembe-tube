@@ -18,7 +18,7 @@ const Nav = ({
   // console.log(forwardedRef)
 
   return (
-    <div className="fixed top-0 flex justify-around w-screen py-2 bg-orange-600 md:py-4">
+    <div className="fixed flex justify-around w-screen py-2 bg-orange-600 md:py-4">
       <HomeHistoryPlaylistIcons />
       {/* <Link to="/about">
         <button

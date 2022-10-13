@@ -12,7 +12,7 @@ const SearchForm = ({ searchedString, handleSubmit, handleChange }) => {
         {/* Search Input */}
         <input
           autoFocus
-          className=" text-sm rounded-full md:rounded-full md:text-xl md:pb-0.5 w-30 md:w-96 input-box"
+          className=" input-box"
           placeholder="Type your search"
           type="text"
           name="SearchString"

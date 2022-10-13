@@ -2,7 +2,7 @@ import React from "react"
 import { GoSearch } from "react-icons/go"
 // import { Link, useParams } from 'react-router-dom';
 // import { Button } from 'reactstrap';
-import "./SearchForm.css"
+import "../Components/SearchForm.css"
 
 // This is the search form. It conatins both the input box and the search icon
 const SearchForm = ({ searchedString, handleSubmit, handleChange }) => {
@@ -12,7 +12,7 @@ const SearchForm = ({ searchedString, handleSubmit, handleChange }) => {
         {/* Search Input */}
         <input
           autoFocus
-          className=" text-sm rounded-full md:rounded-full md:text-xl md:pb-0.5 w-30 md:w-96 input-box"
+          className="px-4 overflow-hidden truncate text-sm rounded-full md:rounded-full md:text-xl md:pb-0.5 w-30 md:w-96 input-box"
           placeholder="Type your search"
           type="text"
           name="SearchString"

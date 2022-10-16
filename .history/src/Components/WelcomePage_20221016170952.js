@@ -19,13 +19,13 @@ const WelcomePage = () => {
       </div>
         <div>
           <img
-          className="object-center m-auto h-60 md:h-96"
+          className="object-center m-auto h-60 md:h-1/2"
           src={require("../Components/Images/HomePage.png")}
           alt="Home Page mage"
         />
         </div>
 
-        <div className="flex justify-center text-2xl text-center bg-blue-500 rounded-md w-16 md:w-24 ">
+        <div className="flex justify-center text-2xl text-center bg-blue-500 rounded-md w-16 md:w-25 md:py-2 lg:py-3 top-3/4 button">
           <Link to="/videoPlayer/:id">
             <button
               className="md:text-4xl go-button"

@@ -28,7 +28,7 @@ const WelcomePage = () => {
         <div className="flex justify-center text-2xl text-center bg-blue-500 rounded-md w-16 md:w-24 ">
           <Link to="/videoPlayer/:id">
             <button
-              className="md:text-4xl go-button"
+              className="md:text-4xl 2xl:text-6xl go-button"
               variant="contained"
               href="#contained-buttons"
             >

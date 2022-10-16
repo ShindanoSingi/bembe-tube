@@ -18,7 +18,7 @@ const VideoCards = ({ videos, viewsFunc }) => {
 
      return !videos
           ? <Wait />
-          : <div className="flex flex-wrap gap-2 mt-1 overflow-auto no-scrollbar lg:left-72 md:flex md:fle-row md:flex-wrap md:gap-1 md:mt-8 lg:overflow-auto lg:flex-row md:flex-row justify-content cards-container">
+          : <div className="flex flex-wrap mt-1 overflow-auto no-scrollbar lg:left-72 md:flex md:fle-row md:flex-wrap md:gap-1 md:mt-8 lg:overflow-auto lg:flex-row md:flex-row justify-content cards-container">
                  {videos.map(
                       (video, index) =>
                            video.type === "video" &&
@@ -29,7 +29,7 @@ const VideoCards = ({ videos, viewsFunc }) => {
                            >
                                 <div
                                      key={index}
-                                     class=" no-scrollbar w-[98vw] h-[150px] md:w-[48vw] flex gap-1 lg:mb-1.5 flex-row mb-1.5 items-center bg-white rounded-lg border shadow-md md:flex-row hover:bg-gray-100 lg:rounded-r-lg dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+                                     class="card no-scrollbar h-44 flex py-2 gap-1 lg:mb-1.5 flex-row mb-1.5 items-center bg-white rounded-lg border shadow-md md:flex-row hover:bg-gray-100 lg:rounded-r-lg dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
                                 >
                                      <img
                                           className="object-cover rounded-l-lg thumbnail"

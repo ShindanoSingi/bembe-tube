@@ -29,7 +29,7 @@ const VideoCards = ({ videos, viewsFunc }) => {
                            >
                                 <div
                                      key={index}
-                                     class=" no-scrollbar w-[98vw] h-[150px] md:w-[48vw] flex gap-1 lg:mb-1.5 flex-row mb-1.5 items-center bg-white rounded-lg border shadow-md md:flex-row hover:bg-gray-100 lg:rounded-r-lg dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+                                     class=" no-scrollbar w-[98vw] h-[150px]  flex gap-1 lg:mb-1.5 flex-row mb-1.5 items-center bg-white rounded-lg border shadow-md md:flex-row hover:bg-gray-100 lg:rounded-r-lg dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
                                 >
                                      <img
                                           className="object-cover rounded-l-lg thumbnail"

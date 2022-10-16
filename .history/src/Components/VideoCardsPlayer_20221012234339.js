@@ -18,7 +18,7 @@ const VideoCards = ({ videos, viewsFunc }) => {
 
      return !videos
           ? <Wait />
-          : <div className="flex flex-wrap gap-2 mt-1 overflow-auto no-scrollbar lg:left-72 md:flex md:fle-row md:flex-wrap md:gap-1 md:mt-8 lg:overflow-auto lg:flex-row md:flex-row justify-content cards-container">
+          : <div className="flex flex-wrap mt-1 overflow-auto no-scrollbar lg:left-72 md:flex md:fle-row md:flex-wrap md:gap-1 md:mt-8 lg:overflow-auto lg:flex-row md:flex-row justify-content cards-container">
                  {videos.map(
                       (video, index) =>
                            video.type === "video" &&

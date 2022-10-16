@@ -25,7 +25,7 @@ const WelcomePage = () => {
         />
         </div>
 
-        <div className="flex justify-center text-2xl text-center bg-blue-500 rounded-md w-16 md:w-24 ">
+        <div className="flex justify-center text-2xl text-center bg-blue-500 rounded-md w-16 md:w-25 ">
           <Link to="/videoPlayer/:id">
             <button
               className="md:text-4xl go-button"

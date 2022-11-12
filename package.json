@@ -25,15 +25,16 @@
     "babel-plugin-macros": "^3.1.0",
     "bootstrap": "^5.2.0-beta1",
     "cors": "^2.8.5",
+    "focus-trap-react": "^10.0.0",
     "material-icons": "^1.11.0",
     "materialize-css": "^1.0.0-rc.2",
     "module": "^1.1.0",
     "pure": "^2.85.0",
     "pure-css": "^1.0.4",
-    "react": "^16.15.0",
+    "react": "^18.1.0",
     "react-bootstrap": "^2.4.0",
-    "react-dom": "^16.15.0",
-    "react-icons": "^4.3.1",
+    "react-dom": "^18.1.0",
+    "react-icons": "^4.4.0",
     "react-native-web": "^0.17.7",
     "react-native-ytsr": "^1.0.7",
     "react-player": "^2.10.1",
@@ -48,7 +49,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=5000 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

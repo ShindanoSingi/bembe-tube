@@ -1,0 +1,214 @@
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.cards-container::-webkit-scrollbar {
+    width: 0 !important
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.home-icon, .user-icon, .hamburger {
+    color: white;
+}
+
+/* Middle nav */
+.videoTitle {
+    width: 55vw;
+}
+
+.single-card {
+    width: 15rem;
+}
+
+.nav-container {
+    display: flex;
+    gap: 0.2em;
+    height: 8vh;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.middle-nav {
+    height: 8vh;
+    width: 98vw;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+iframe {
+    height: 45vh;
+    width: 98vw;
+    margin: 0 auto;
+}
+
+.video-thumbnail {
+    width: 6rem;
+    height: 7rem;
+    background-size: cover;
+}
+
+.cards-container {
+    height: 37vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.playlist {
+    visibility: hidden;
+}
+
+.playlistAddIcon {
+    visibility: hidden;
+}
+
+/* .video-player {
+    display: grid;
+    grid-template-areas: "nav"
+        "iframe"
+        "middle-nav"
+        "video-cards"
+
+
+} */
+
+
+@media (min-width: 768px) {
+    .nav-container {
+        display: flex;
+        width: 98vw;
+
+    }
+
+    .playlist {
+        visibility: block;
+    }
+
+    .playlistAddIcon {
+        visibility: block;
+    }
+
+    .videoTitle {
+        width: 70vw;
+    }
+
+    .video-thumbnail {
+        width: 10rem;
+        height: 7rem;
+        background-size: cover;
+    }
+
+    iframe {
+        height: 45vh;
+        width: 98vw;
+        grid-area: iframe;
+    }
+
+    .cards-container {
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        overflow-y: auto;
+    }
+
+    /* Middle nav */
+    .videoTitle {
+        width: 90vw;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .video-thumbnail {
+        width: 8rem;
+        height: 7rem;
+        background-size: cover;
+    }
+
+    .nav-container {
+        display: flex;
+        height: 8vh;
+        width: 100vw;
+        justify-content: space-around;
+        align-items: center;
+        grid-area: nav;
+    }
+
+    iframe {
+        height: 82.5vh;
+        width: 65vw;
+        grid-area: iframe;
+    }
+
+    .middle-nav {
+        width: 65vw;
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 1rem;
+    }
+
+    .cards-container {
+        width: 25rem;
+        height: 84vh;
+        display: flex;
+        flex-direction: column;
+        overflow-y: auto;
+        gap: 0.5em;
+    }
+
+    /* Middle nav */
+    .videoTitle {
+        width: 60vw;
+    }
+
+    .iframe-cards {
+        display: flex;
+        width: 100vw;
+        margin: 0 0.5rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    .middle-nav {
+        width: 73vw;
+    }
+
+    iframe {
+        height: 82.5vh;
+        width: 73vw;
+    }
+}
+
+@media screen and (orientation:landscape) {
+    .nav-container {
+        display: flex;
+        height: 10rem;
+        width: 100vw;
+        justify-content: space-around;
+        align-items: center;
+        grid-area: nav;
+    }
+
+    .middle-nav {
+        height: 20vh;
+    }
+
+    iframe {
+        height: calc(100vh);
+    }
+}

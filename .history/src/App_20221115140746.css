@@ -190,7 +190,7 @@ iframe {
 
     .single-card {
         color: white;
-        width: 10rem;
+        width: 18vw;
     }
 
     .cards-container {
@@ -209,11 +209,6 @@ iframe {
     iframe {
         height: 82.5vh;
         width: 78vw;
-    }
-
-    .iframe-cards {
-        display: flex;
-        margin: 0 0.5rem;
     }
 }
 

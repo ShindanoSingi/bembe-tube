@@ -193,15 +193,6 @@ iframe {
         width: 10rem;
     }
 
-    .cards-container {
-        height: 84vh;
-        width: 20vw;
-        display: flex;
-        flex-direction: column;
-        overflow-y: auto;
-        gap: 0.5em;
-    }
-
     .middle-nav {
         width: 78vw;
     }

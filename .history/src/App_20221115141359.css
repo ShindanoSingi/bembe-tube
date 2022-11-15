@@ -195,7 +195,8 @@ iframe {
 
     .cards-container {
         height: 84vh;
-        width: 20vw;
+        max-width: 23vw;
+        margin: 0 0.5rem;
         display: flex;
         flex-direction: column;
         overflow-y: auto;
@@ -208,7 +209,7 @@ iframe {
 
     iframe {
         height: 82.5vh;
-        width: 78vw;
+        width: 75vw;
     }
 
     .iframe-cards {

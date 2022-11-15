@@ -148,14 +148,9 @@ iframe {
         grid-area: nav;
     }
 
-    .single-card {
-        color: white;
-        width: 16vw;
-    }
-
     iframe {
-        height: 84vh;
-        width: 75vw;
+        height: 82.5vh;
+        width: 70vw;
         grid-area: iframe;
     }
 
@@ -167,6 +162,7 @@ iframe {
     }
 
     .cards-container {
+        width: rem;
         height: 84vh;
         display: flex;
         flex-direction: column;
@@ -176,7 +172,7 @@ iframe {
 
     /* Middle nav */
     .videoTitle {
-        width: 65vw;
+        width: 60vw;
     }
 
     .iframe-cards {
@@ -187,33 +183,13 @@ iframe {
 }
 
 @media (min-width: 1440px) {
-
-    .single-card {
-        color: white;
-        width: 10rem;
-    }
-
-    .cards-container {
-        height: 84vh;
-        width: 20vw;
-        display: flex;
-        flex-direction: column;
-        overflow-y: auto;
-        gap: 0.5em;
-    }
-
     .middle-nav {
-        width: 78vw;
+        width: 73vw;
     }
 
     iframe {
         height: 82.5vh;
-        width: 78vw;
-    }
-
-    .iframe-cards {
-        display: flex;
-        margin: 0 0.5rem;
+        width: 73vw;
     }
 }
 

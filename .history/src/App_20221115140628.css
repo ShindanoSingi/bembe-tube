@@ -190,30 +190,16 @@ iframe {
 
     .single-card {
         color: white;
-        width: 10rem;
-    }
-
-    .cards-container {
-        height: 84vh;
         width: 20vw;
-        display: flex;
-        flex-direction: column;
-        overflow-y: auto;
-        gap: 0.5em;
     }
 
     .middle-nav {
-        width: 78vw;
+        width: 80vw;
     }
 
     iframe {
         height: 82.5vh;
-        width: 78vw;
-    }
-
-    .iframe-cards {
-        display: flex;
-        margin: 0 0.5rem;
+        width: 80vw;
     }
 }
 

@@ -196,6 +196,7 @@ iframe {
     .cards-container {
         height: 84vh;
         width: 20vw;
+        position: absolute;
         display: flex;
         flex-direction: column;
         overflow-y: auto;
